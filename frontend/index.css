@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    margin: auto;
+    margin-top: 150px;
+    width: 400px;
+    height: 280px;
+    border: 8px solid aqua;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.boxes {
+    position: absolute;
+    width: 130px;
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html {
+    background-color: rgb(255, 182, 193);
+    top: 30px;
+    right: 70px;
+    z-index: 3;
+}
+.css {
+    background-color: rgb(179, 147, 255);
+    top: 90px;
+    right: 130px;
+    z-index: 2;
+}
+.bootstrap {
+    background-color: lawngreen;
+    top: 150px;
+    right: 200px;
+    z-index: 1;
+}

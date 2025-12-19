@@ -1,0 +1,11 @@
+this._s=this._s||{};(function(_){var window=this;
+try{
+_.Y_f=_.x("VB8Vcf",[_.w1a]);
+}catch(e){_._DumpException(e)}
+try{
+_.t("VB8Vcf");
+_.Ir(_.Y_f,class extends _.iXe{});
+_.v();
+}catch(e){_._DumpException(e)}
+})(this._s);
+// Google Inc.

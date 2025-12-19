@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>red</title>
+    <style>
+        body{
+            background-color:orangered;
+            color:white;
+            width:100;
+            height:100%;
+        }
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+        .container{
+            width:100%;
+            height:100%;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items:center;
+        }
+        .boxes{
+            display:grid;
+            /*grid-template-columns:1fr 1fr 1fr;
+            grid-template-rows:1fr 1fr 1fr;*/
+            border:0.5px solid white;
+            padding:10px;
+        }
+        .nav{
+            width:100%;
+            height:50px;
+        }
+        .head{
+            width:100%;
+            height:100px;
+        }
+        .side{
+            width:35%;
+            height:200px;
+        }
+        .main{
+            width:65%;
+            height:200px;
+        }
+        .side1{
+            width:35%;
+            height:200px;
+        }
+        .side2{
+            width:32.5%;
+            height:200px;
+        }
+        .side3{
+            width:32.5%;
+            height:200px;
+        }
+        .foot{
+            width:100%;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes nav">Navigation</div>
+        <div class="boxes head">Header</div>
+        <div class="boxes side">Sidebar</div>
+        <div class="boxes main">MainContent</div>
+        <div class="boxes side1">Aside1</div>
+        <div class="boxes side2">Aside2</div>
+        <div class="boxes side3">Aside3</div>
+        <div class="boxes foot">Footer</div>
+    </div>
+</body>
+</html>

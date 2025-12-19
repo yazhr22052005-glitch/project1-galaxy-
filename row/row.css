@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+    left: 600px;
+    gap: 20px;
+    transform-style: preserve-3d ;
+}
+.box1{
+    top: 200px;
+    height: 150px;
+    width: 150px;
+    border: 2px solid grey;
+    background-image: url(https://w0.peakpx.com/wallpaper/842/736/HD-wallpaper-walt-disney-rapunzel-rapunzel-flynn-rider-moment-romantic-walt-disney-fairytale-princess-sweet.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.left_door,.right_door{
+    position: absolute;
+    height: 160px;
+    width: 75px;
+}
+.left_door{
+    background-image: url(https://www.hdwallpapers.in/download/pink_shades_pink_background_hd_pink_background-HD.jpg);
+    background-size: cover;
+    animation: doorleftright 4s linear infinite;
+    transform-origin: left;
+    background-repeat: no-repeat;
+}
+.right_door{
+    background-image: url(https://www.hdwallpapers.in/download/pink_shades_pink_background_hd_pink_background-HD.jpg);
+    background-size: cover;
+    animation: doorleftright 4s linear infinite;
+    transform-origin: right;
+    background-repeat: no-repeat;
+    margin-left: 75px;
+}
+@keyframes doorleftright{
+    40%{transform: rotateY(-180deg);}
+    60%{transform: rotateY(-180deg);}
+    90%{transform: rotateY(0deg);}
+}
